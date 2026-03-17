@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Business - Momentum Mastery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="section-container">
+      <a href="onlinebusiness.html"><img src="assets/momentum-mastery-logo.png" alt="Momentum Mastery" class="navbar-logo"></a>
+      <div class="nav-links">
+        <a href="onlinebusiness.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="onlinebusiness.html#story">My Story</a>
+        <a href="onlinebusiness.html#testimonials">Testimonials</a>
+        <a href="contact.html">Contact</a>
+        <a href="onlinebusiness.html#contact" class="btn-gradient">Learn More</a>
+      </div>
+      <button class="mobile-menu-btn" onclick="document.getElementById('mobile-nav').classList.toggle('open')">&#9776;</button>
+    </div>
+    <div id="mobile-nav" class="mobile-nav section-container">
+      <a href="onlinebusiness.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="onlinebusiness.html#story">My Story</a>
+      <a href="onlinebusiness.html#testimonials">Testimonials</a>
+      <a href="contact.html">Contact</a>
+      <a href="onlinebusiness.html#contact" class="btn-gradient" style="text-align:center;">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="blob1"></div>
+      <div class="blob2"></div>
+      <div class="blob3"></div>
+    </div>
+    <div class="section-container">
+      <div class="hero-grid">
+        <!-- Left Content -->
+        <div>
+          <div style="margin-bottom:2rem;"><span class="hero-badge">Personal Growth &amp; Leadership Development</span></div>
+          <h1 class="font-display">Turn <span class="gradient-text">Motivation</span><br>Into <span class="gradient-text">Momentum</span></h1>
+          <p class="hero-desc" style="margin:2rem 0;">Build Your Online Business Today and Own Your Future. I guide the next generation of founders into the personal development industry — a global market on track to hit $80 billion by 2030. Move beyond the standard work roster and join a growth-led industry designed for the way we want to live now.</p>
+          <blockquote>
+            <p>"Progress is power. Every small step forward is proof that you're capable of more."</p>
+            <footer>- Jayla, Founder of Momentum Mastery</footer>
+          </blockquote>
+          <div class="hero-image gradient-border" style="margin-top:2rem;">
+            <img src="assets/hero-photo.png" alt="Jayla - Founder of Momentum Mastery">
+            <div class="overlay"></div>
+          </div>
+        </div>
+
+        <!-- Right Content - Contact Form -->
+        <div id="contact">
+          <div class="glass-card glow-purple form-card">
+            <h2 class="font-display">Start Your Journey Today</h2>
+            <p>Ready to build momentum? Let's connect.</p>
+            <form action="https://www.globalsuccesssolution.com/index.php/lead/capture" method="post">
+              <p style="font-size:0.875rem;color:hsl(0,84%,60%);margin-bottom:1rem;">* Required fields</p>
+              <div class="form-row">
+                <div class="form-group"><label for="extFirstName">First Name <span class="req">*</span></label><input type="text" id="extFirstName" name="extFirstName" placeholder="Sarah" required></div>
+                <div class="form-group"><label for="extLastName">Last Name</label><input type="text" id="extLastName" name="extLastName" placeholder="Smith"></div>
+              </div>
+              <div class="form-group"><label for="extPhone">Telephone <span class="req">*</span></label><input type="tel" id="extPhone" name="extPhone" placeholder="+1 (555) 000-0000" required></div>
+              <div class="form-group"><label for="extEmail">Email Address <span class="req">*</span></label><input type="email" id="extEmail" name="extEmail" placeholder="you@example.com" required></div>
+              <div class="form-row">
+                <div class="form-group"><label for="extTimeZone">Time Zone</label><select id="extTimeZone" name="extTimeZone"><option value="">Select timezone</option><option value="UTC-12">(UTC-12:00)</option><option value="UTC-11">(UTC-11:00)</option><option value="UTC-10">(UTC-10:00) Hawaii</option><option value="UTC-9">(UTC-09:00) Alaska</option><option value="UTC-8">(UTC-08:00) Pacific</option><option value="UTC-7">(UTC-07:00) Mountain</option><option value="UTC-6">(UTC-06:00) Central</option><option value="UTC-5">(UTC-05:00) Eastern</option><option value="UTC-4">(UTC-04:00) Atlantic</option><option value="UTC-3">(UTC-03:00) Brazil</option><option value="UTC+0">(UTC+00:00) London</option><option value="UTC+1">(UTC+01:00) Central Europe</option><option value="UTC+2">(UTC+02:00) Eastern Europe</option><option value="UTC+3">(UTC+03:00) Moscow</option><option value="UTC+5:30">(UTC+05:30) India</option><option value="UTC+8">(UTC+08:00) Singapore</option><option value="UTC+9">(UTC+09:00) Tokyo</option><option value="UTC+9:30">(UTC+09:30) Adelaide</option><option value="UTC+10">(UTC+10:00) Sydney</option><option value="UTC+12">(UTC+12:00) Auckland</option></select></div>
+                <div class="form-group"><label for="extCountry">Country</label><select id="extCountry" name="extCountry"><option value="">Select a country</option><option>Australia</option><option>Canada</option><option>Ireland</option><option>New Zealand</option><option>South Africa</option><option>United Kingdom</option><option>United States</option><option>Other</option></select></div>
+              </div>
+              <div class="form-group"><label for="extOccupation">Current Occupation</label><input type="text" id="extOccupation" name="extOccupation" placeholder="e.g., Student, Entrepreneur"></div>
+              <div class="form-group"><label for="extGoal">Serious Income Goal</label><input type="text" id="extGoal" name="extGoal" placeholder="e.g., $10,000/month"></div>
+              <div class="form-group"><label for="extReason">Reason for Responding</label><input type="text" id="extReason" name="extReason" placeholder="Tell me about your goals..."></div>
+              <div class="checkbox-group" style="margin-bottom:1.5rem;">
+                <input type="checkbox" id="extOptin" name="extOptin" required>
+                <label for="extOptin">I agree to receive free info via email and phone from the momentummastery.com.au team <span style="color:hsl(0,84%,60%);">*</span></label>
+              </div>
+              <input type="hidden" name="redirect" value="thank-you.html">
+              <input type="hidden" name="category_id" value="2">
+              <input type="hidden" name="extLink" value="31997">
+              <button type="submit" class="btn-gradient submit-btn">Let's Connect</button>
+              <p class="form-fine-print">By providing my contact information, I am requesting information about this opportunity and the award winning products and services.</p>
+              <p class="form-fine-print">By submitting, you agree to our <a href="terms.html">Terms</a> &amp; <a href="privacy.html">Privacy Policy</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Section -->
+  <section id="about" class="py-24 relative">
+    <div class="section-container">
+      <div class="two-col">
+        <div class="image-block gradient-border" style="aspect-ratio:4/5; order:2;">
+          <img src="assets/story-journey.png" alt="Jayla celebrating at Mt. Fuji">
+          <div class="overlay"></div>
+        </div>
+        <div class="content-block" style="order:1;">
+          <span class="tag">My Journey</span>
+          <h2 class="font-display">My Journey to <span class="gradient-text">Momentum</span></h2>
+          <p>Growing up, I felt like I was constantly searching for something more. I had big dreams but no clear path to reach them. I spent years trying different approaches, making mistakes, and learning from every setback.</p>
+          <p>Through my own journey of personal growth, I discovered that success isn't about having all the answers — it's about having the courage to keep moving forward, even when things get tough. It's about building momentum, one small step at a time.</p>
+          <p>My latest 'small step' was moving away from the traditional roster and toward a future-proof digital model. Let's be real: the old way of working isn't just exhausting; it's becoming obsolete. I chose to align myself with a growth industry and join a business that prioritises impact over hours.</p>
+          <p>Now, I'm on a mission to help other young people like me do the same. Because I believe that everyone deserves to feel empowered, confident, and excited about their future.</p>
+          <a href="contact.html" class="btn-gradient" style="margin-top:1rem;">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Section -->
+  <section class="py-24 relative">
+    <div class="gradient-bg-subtle" style="position:absolute;inset:0;z-index:-1;"></div>
+    <div class="section-container">
+      <div class="section-header">
+        <span class="tag">Why Choose Us</span>
+        <h2 class="font-display">Unlocking Your <span class="gradient-text">Digital Earning Potential</span>.</h2>
+        <p>Join thousands who have transformed their lives through our proven online business system.</p>
+      </div>
+      <div class="features-grid">
+        <div class="glass-card feature-card">
+          <div class="feature-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+          <h3>High Ticket - Direct Upfront Profits</h3>
+          <p>Earn up to $5,000 per sale with our premium product line — no stocking inventory required.</p>
+        </div>
+        <div class="glass-card feature-card">
+          <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>We Close For You</h3>
+          <p>Our Global Leadership Team and proven system handles the heavy lifting so you can focus on growth.</p>
+        </div>
+        <div class="glass-card feature-card">
+          <div class="feature-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <h3>Work From Anywhere</h3>
+          <p>Build your business from home, the beach, or while traveling — complete location freedom.</p>
+        </div>
+        <div class="glass-card feature-card">
+          <div class="feature-icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+          <h3>Booming Industry</h3>
+          <p>Partner with a Global Media company in the thriving Personal Growth &amp; Leadership sector.</p>
+        </div>
+        <div class="glass-card feature-card">
+          <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+          <h3>No Pressure Selling</h3>
+          <p>No cold calling, no promoting to friends and family — just authentic connection and value.</p>
+        </div>
+        <div class="glass-card feature-card">
+          <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M12 3l1.5 4.5H18l-3.5 2.5 1.5 4.5L12 12l-4 2.5 1.5-4.5L6 7.5h4.5z"/></svg></div>
+          <h3>Flexibility &amp; Freedom</h3>
+          <p>Design your schedule around your life, not the other way around. True work-life balance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Story Section -->
+  <section id="story" class="py-24 relative overflow-hidden">
+    <div class="section-container">
+      <div class="two-col" style="margin-bottom:6rem;">
+        <div class="content-block">
+          <span class="tag">About Me</span>
+          <h2 class="font-display">Hey! I'm <span class="gradient-text">Jayla</span></h2>
+          <p>I'm a young entrepreneur and personal development advocate on a mission to help my generation unlock their full potential. I know what it's like to feel stuck, overwhelmed, and unsure of the next step.</p>
+          <p>That's exactly why I created Momentum Mastery — to share everything I'm learning about mindset, growth, and building a life with a proven online business that you're genuinely excited about. This isn't about having it all figured out. It's about moving forward, together in a positive growth industry.</p>
+        </div>
+        <div class="image-block gradient-border">
+          <img src="assets/about-beach.png" alt="Jayla at the beach">
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="two-col">
+        <div class="image-block gradient-border">
+          <img src="assets/vision-boat.png" alt="Looking toward the horizon from a boat at sunset">
+          <div class="overlay"></div>
+        </div>
+        <div class="content-block">
+          <span class="tag">Our Mission</span>
+          <h2 class="font-display">Building your <span class="gradient-text">Future</span></h2>
+          <p>We empower ambitious young people like you by replacing guesswork with a proven online business model and clear strategies for success. By combining a resilient mindset with the strategic discipline needed to accelerate results, we provide the framework for you to achieve online success, build lasting confidence, and design a high-impact life you love.</p>
+          <a href="contact.html" class="btn-gradient" style="margin-top:1rem;">Join the Journey</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="py-24 relative">
+    <div class="gradient-bg-subtle" style="position:absolute;inset:0;z-index:-1;"></div>
+    <div class="section-container">
+      <div class="section-header">
+        <span class="tag">Real Stories</span>
+        <h2 class="font-display">Hear From <span class="gradient-text">Our Community</span></h2>
+        <p>Discover what dreams could become reality. Hear from real business owners who transformed their lives with our system.</p>
+      </div>
+      <div class="video-wrapper gradient-border glow-purple">
+        <iframe src="https://player.vimeo.com/video/982673874?badge=0&autopause=0&player_id=0&app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="What Dreams Could Become Reality"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-24 relative">
+    <div class="gradient-bg-subtle" style="position:absolute;inset:0;z-index:-1;"></div>
+    <div class="section-container">
+      <div class="section-header">
+        <span class="tag">Testimonials</span>
+        <h2 class="font-display">Real People, <span class="gradient-text">Real Results</span></h2>
+        <p>Hear from members of our community who have transformed their lives.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="glass-card testimonial-card">
+          <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <p class="quote">"There have been so many significant shifts in my mindset, emotional state and way of thinking - truly life-transforming!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12" y2="18"/></svg></div>
+            <div><div class="name">Katy G.</div><div class="title">Product Testimonial</div></div>
+          </div>
+        </div>
+        <div class="glass-card testimonial-card">
+          <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <p class="quote">"With the simple system, training and support, this online business has enabled me to earn an executive-level income with flexible part-time hours."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+            <div><div class="name">Bex K.</div><div class="title">Business Testimonial</div></div>
+          </div>
+        </div>
+        <div class="glass-card testimonial-card">
+          <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <p class="quote">"I was looking for time freedom, the ability to still make a difference and to replace my executive salary. This business has ticked all my boxes and a whole lot more."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            <div><div class="name">Julie S.</div><div class="title">Business Testimonial</div></div>
+          </div>
+        </div>
+        <div class="glass-card testimonial-card">
+          <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <p class="quote">"The teachings that these mentors provide and the simplicity in which one can intake is simple and incredible."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+            <div><div class="name">Jerrad S.</div><div class="title">Product Testimonial</div></div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:3rem;">
+        <p style="color:var(--muted-foreground);margin-bottom:1.5rem;">Ready to start your own transformation?</p>
+        <a href="contact.html" class="btn-gradient">Join the Community</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-bg">
+      <img src="assets/lifestyle-jetski.png" alt="Lifestyle">
+      <div class="overlay"></div>
+    </div>
+    <div class="section-container">
+      <div class="cta-content">
+        <span class="tag">Your Next Step</span>
+        <h2 class="font-display">Take the First Step <span class="gradient-text">Today</span></h2>
+        <p>You don't have to have it all figured out. You just have to start. Let's build your momentum together.</p>
+        <a href="contact.html" class="btn-gradient" style="font-size:1.125rem;padding:1rem 2.5rem;">Get Started Now &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section-container">
+      <div class="footer-content">
+        <div>
+          <a href="onlinebusiness.html"><img src="assets/momentum-mastery-logo.png" alt="Momentum Mastery" class="footer-logo"></a>
+          <p class="footer-tagline">Building confidence, discipline, and momentum.</p>
+        </div>
+        <div class="social-links">
+          <a href="https://instagram.com/masteryofmomentum" target="_blank" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+          <a href="https://tiktok.com/@masteryofmomentum" target="_blank" class="social-link" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/></svg></a>
+          <a href="https://www.facebook.com/profile.php?id=61586107756817" target="_blank" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="onlinebusiness.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about-us.html">About Us</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="earnings-disclaimer.html">Earnings Disclaimer</a>
+      </div>
+      <div class="footer-copyright">&copy; 2026 Momentum Mastery. All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
